@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './Hero'
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
     <Router>
